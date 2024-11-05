@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Out - E-Waste Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .signout-section {
+            background-color: #fff;
+            padding: 20px;
+            max-width: 300px;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .signout-section button {
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .signout-section button:hover {
+            background-color: #e53935;
+        }
+    </style>
+    <script>
+        function signOut() {
+            // For a real application, you would make an API call to sign the user out.
+            // Example: You might call a backend service to destroy the user's session.
+            
+            // Here, we'll just simulate the sign-out process.
+            alert("You have been signed out.");
+            // Redirect to the homepage or login page
+            window.location.href = "home.html"; // Replace with your actual homepage
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Sign Out Section -->
+    <div class="signout-section">
+        <h2>Sign Out</h2>
+        <p>Are you sure you want to sign out?</p>
+        <button onclick="signOut()">Sign Out</button>
+    </div>
+
+</body>
+</html>

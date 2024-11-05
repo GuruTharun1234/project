@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - E-Waste Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#form">Contact Form</a></li>
+                <li><a href="#info">Contact Information</a></li>
+                <li><a href="#map">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="form">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, suggestions, or would like to learn more about our services, please fill out the form below:</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br><label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" required>
+            <br><label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea>
+            <br><button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="info">
+        <h2>Contact Information</h2>
+        <p>You can also reach us through the following channels:</p>
+        <ul>
+            <li>Email: <a href="mailto:pgurutharun@gmail.com">pgurutharun@gmail.com</a></li>
+            <li>Phone: <a href="tel:9705933343">9705933343</a></li>
+            <li>Address: Lovely Professional University,G.T. road </li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 E-Waste Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
